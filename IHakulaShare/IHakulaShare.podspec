@@ -8,7 +8,7 @@ s.summary = "IHakulaShare can help you share message to QQ, WeChat, Qzone and Si
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.2.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -26,12 +26,11 @@ s.source = { :git => "https://github.com/wayde191/IHakulaShare.git", :tag => "#{
 s.framework = "UIKit", "Foundation", "MessageUI", "CoreTelephony", "SystemConfiguration"
 s.library = "z", "icucore"
 
-s.vendored_frameworks = "IHakulaShare/Share/SDK/*.framework", "IHakulaShare/Share/SDK/**/*.framework", "IHakulaShare/Share/SDK/Extend/**/*.framework"
+s.vendored_frameworks = "IHakulaShare/**/*.framework"
+s.vendored_libraries = "IHakulaShare/**/*.a"
 
-s.vendored_libraries = "IHakulaShare/Share/SDK/Extend/**/*.a"
 # 8
-s.source_files = "IHakulaShare/*.{h,pch}", "IHakulaShare/**/*.{h,m}", "IHakulaShare/**/**/*.{h,m}", "IHakulaShare/Share/SDK/**/*.{h,m,strings}", "IHakulaShare/Share/SDK/Extend/**/*.{h,m}"
-
-s.resource = "IHakulaShare/Share/*.xib", "IHakulaShare/Share/SDK/**/*.bundle", "IHakulaShare/Share/SDK/Extend/**/*.bundle"
+s.source_files = "IHakulaShare/**/*.{h,m,pch,strings}"
+s.resources = "IHakulaShare/**/*.{xib, bundle}"
 
 end
