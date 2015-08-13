@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BA0CB0D51B7C8554001294C3 /* IHakulaShare.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB0D41B7C8554001294C3 /* IHakulaShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA0CB1191B7C875A001294C3 /* BaseXibView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB0EC1B7C875A001294C3 /* BaseXibView.h */; };
+		BA0CB1191B7C875A001294C3 /* BaseXibView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB0EC1B7C875A001294C3 /* BaseXibView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA0CB11A1B7C875A001294C3 /* BaseXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0CB0ED1B7C875A001294C3 /* BaseXibView.m */; };
-		BA0CB11B1B7C875A001294C3 /* XibViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB0EE1B7C875A001294C3 /* XibViewUtils.h */; };
+		BA0CB11B1B7C875A001294C3 /* XibViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB0EE1B7C875A001294C3 /* XibViewUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA0CB11C1B7C875A001294C3 /* XibViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0CB0EF1B7C875A001294C3 /* XibViewUtils.m */; };
 		BA0CB11D1B7C875A001294C3 /* QZoneConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0CB0F31B7C875A001294C3 /* QZoneConnection.framework */; };
 		BA0CB11E1B7C875A001294C3 /* SinaWeiboConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0CB0F41B7C875A001294C3 /* SinaWeiboConnection.framework */; };
@@ -23,14 +23,14 @@
 		BA0CB1251B7C875A001294C3 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA0CB1001B7C875A001294C3 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		BA0CB1261B7C875A001294C3 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0CB1021B7C875A001294C3 /* libWeiboSDK.a */; };
 		BA0CB1271B7C875A001294C3 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA0CB1031B7C875A001294C3 /* WeiboSDK.bundle */; };
-		BA0CB1281B7C875A001294C3 /* WeiboSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB1041B7C875A001294C3 /* WeiboSDK.h */; };
+		BA0CB1281B7C875A001294C3 /* WeiboSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB1041B7C875A001294C3 /* WeiboSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA0CB1291B7C875A001294C3 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0CB1061B7C875A001294C3 /* libWeChatSDK.a */; };
-		BA0CB12A1B7C875A001294C3 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB1071B7C875A001294C3 /* WXApi.h */; };
-		BA0CB12B1B7C875A001294C3 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB1081B7C875A001294C3 /* WXApiObject.h */; };
-		BA0CB12C1B7C875A001294C3 /* AGViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB10A1B7C875A001294C3 /* AGViewDelegate.h */; };
+		BA0CB12A1B7C875A001294C3 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB1071B7C875A001294C3 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA0CB12B1B7C875A001294C3 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB1081B7C875A001294C3 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA0CB12C1B7C875A001294C3 /* AGViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB10A1B7C875A001294C3 /* AGViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA0CB12D1B7C875A001294C3 /* AGViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0CB10B1B7C875A001294C3 /* AGViewDelegate.m */; };
 		BA0CB12E1B7C875A001294C3 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0CB10C1B7C875A001294C3 /* ShareSDK.framework */; };
-		BA0CB1371B7C875A001294C3 /* ShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB1161B7C875A001294C3 /* ShareView.h */; };
+		BA0CB1371B7C875A001294C3 /* ShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB1161B7C875A001294C3 /* ShareView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA0CB1381B7C875A001294C3 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0CB1171B7C875A001294C3 /* ShareView.m */; };
 		BA0CB1391B7C875A001294C3 /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0CB1181B7C875A001294C3 /* ShareView.xib */; };
 		BA0CB13B1B7C8804001294C3 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0CB13A1B7C8804001294C3 /* libicucore.dylib */; };
