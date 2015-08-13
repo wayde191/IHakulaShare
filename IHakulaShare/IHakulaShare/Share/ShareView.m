@@ -133,11 +133,11 @@
         [self handlesinaWeibo];
     }
      */
-    
+
     
     
     UIButton *button = (UIButton*)sender;
-    ShareType shareType;
+    ShareType shareType = ShareTypeAny;
     if (1 == button.tag) {
         shareType = ShareTypeWeixiSession;
     } else if (2 == button.tag) {
