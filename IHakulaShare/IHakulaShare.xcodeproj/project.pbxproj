@@ -32,12 +32,12 @@
 		BA0CB2101B7D6833001294C3 /* ShareView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB2031B7D6833001294C3 /* ShareView.h */; };
 		BA0CB2111B7D6833001294C3 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0CB2041B7D6833001294C3 /* ShareView.m */; };
 		BA0CB2121B7D6833001294C3 /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0CB2051B7D6833001294C3 /* ShareView.xib */; };
-		BA0CB2131B7D6833001294C3 /* WeiboSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB2061B7D6833001294C3 /* WeiboSDK.h */; };
-		BA0CB2141B7D6833001294C3 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB2071B7D6833001294C3 /* WXApi.h */; };
-		BA0CB2151B7D6833001294C3 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB2081B7D6833001294C3 /* WXApiObject.h */; };
 		BA0CB2161B7D6833001294C3 /* XibViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB2091B7D6833001294C3 /* XibViewUtils.h */; };
 		BA0CB2171B7D6833001294C3 /* XibViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0CB20A1B7D6833001294C3 /* XibViewUtils.m */; };
 		BA0CB2191B7D6DB4001294C3 /* IHakulaShare.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BA0CB2181B7D6DB4001294C3 /* IHakulaShare.podspec */; };
+		BA0CB2351B7D933C001294C3 /* WeiboSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB2321B7D933C001294C3 /* WeiboSDK.h */; };
+		BA0CB2361B7D933C001294C3 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB2331B7D933C001294C3 /* WXApi.h */; };
+		BA0CB2371B7D933C001294C3 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB2341B7D933C001294C3 /* WXApiObject.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,12 +69,12 @@
 		BA0CB2031B7D6833001294C3 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
 		BA0CB2041B7D6833001294C3 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
 		BA0CB2051B7D6833001294C3 /* ShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareView.xib; sourceTree = "<group>"; };
-		BA0CB2061B7D6833001294C3 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
-		BA0CB2071B7D6833001294C3 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		BA0CB2081B7D6833001294C3 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		BA0CB2091B7D6833001294C3 /* XibViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibViewUtils.h; sourceTree = "<group>"; };
 		BA0CB20A1B7D6833001294C3 /* XibViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibViewUtils.m; sourceTree = "<group>"; };
 		BA0CB2181B7D6DB4001294C3 /* IHakulaShare.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IHakulaShare.podspec; path = ../IHakulaShare.podspec; sourceTree = "<group>"; };
+		BA0CB2321B7D933C001294C3 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		BA0CB2331B7D933C001294C3 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		BA0CB2341B7D933C001294C3 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +154,9 @@
 		BA0CB1E41B7CF4EA001294C3 /* third */ = {
 			isa = PBXGroup;
 			children = (
+				BA0CB2321B7D933C001294C3 /* WeiboSDK.h */,
+				BA0CB2331B7D933C001294C3 /* WXApi.h */,
+				BA0CB2341B7D933C001294C3 /* WXApiObject.h */,
 				BA0CB1E51B7CF4EA001294C3 /* AGCommon.framework */,
 				BA0CB1E61B7CF4EA001294C3 /* libWeChatSDK.a */,
 				BA0CB1E71B7CF4EA001294C3 /* libWeiboSDK.a */,
@@ -181,9 +184,6 @@
 				BA0CB2031B7D6833001294C3 /* ShareView.h */,
 				BA0CB2041B7D6833001294C3 /* ShareView.m */,
 				BA0CB2051B7D6833001294C3 /* ShareView.xib */,
-				BA0CB2061B7D6833001294C3 /* WeiboSDK.h */,
-				BA0CB2071B7D6833001294C3 /* WXApi.h */,
-				BA0CB2081B7D6833001294C3 /* WXApiObject.h */,
 				BA0CB2091B7D6833001294C3 /* XibViewUtils.h */,
 				BA0CB20A1B7D6833001294C3 /* XibViewUtils.m */,
 			);
@@ -197,13 +197,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA0CB2141B7D6833001294C3 /* WXApi.h in Headers */,
 				BA0CB20D1B7D6833001294C3 /* BaseXibView.h in Headers */,
 				BA0CB20B1B7D6833001294C3 /* AGViewDelegate.h in Headers */,
+				BA0CB2361B7D933C001294C3 /* WXApi.h in Headers */,
+				BA0CB2371B7D933C001294C3 /* WXApiObject.h in Headers */,
 				BA0CB2161B7D6833001294C3 /* XibViewUtils.h in Headers */,
-				BA0CB2131B7D6833001294C3 /* WeiboSDK.h in Headers */,
-				BA0CB2151B7D6833001294C3 /* WXApiObject.h in Headers */,
 				BA0CB20F1B7D6833001294C3 /* IHakulaShare.h in Headers */,
+				BA0CB2351B7D933C001294C3 /* WeiboSDK.h in Headers */,
 				BA0CB2101B7D6833001294C3 /* ShareView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

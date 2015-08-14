@@ -8,7 +8,7 @@ s.summary = "IHakulaShare can help you share message to QQ, WeChat, Qzone and Si
 s.requires_arc = true
 
 # 2
-s.version = "0.8.0"
+s.version = "0.9.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -24,10 +24,13 @@ s.source = { :git => "https://github.com/wayde191/IHakulaShare.git", :tag => "#{
 
 # 7
 s.framework = "UIKit", "Foundation", "MessageUI", "CoreTelephony", "SystemConfiguration"
-s.library = "z", "icucore"
+s.vendored_frameworks = "IHakulaShare/IHakulaShare/third/*.framework"
 
-s.vendored_frameworks = "IHakulaShare/**/*.framework"
-s.vendored_libraries = "IHakulaShare/**/*.a"
+s.library = "z", "icucore"
+s.vendored_libraries = "IHakulaShare/IHakulaShare/third/*.a"
+
+s.preserve_paths = 'IHakulaShare/IHakulaShare/third/*.h'
+s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/IHakulaShare/IHakulaShare/IHakulaShare/third' }
 
 # 8
 s.source_files = "IHakulaShare/IHakulaShare/Classes/*"
