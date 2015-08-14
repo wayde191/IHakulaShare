@@ -8,7 +8,7 @@ s.summary = "IHakulaShare can help you share message to QQ, WeChat, Qzone and Si
 s.requires_arc = true
 
 # 2
-s.version = "0.6.0"
+s.version = "0.8.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -30,7 +30,7 @@ s.vendored_frameworks = "IHakulaShare/**/*.framework"
 s.vendored_libraries = "IHakulaShare/**/*.a"
 
 # 8
-s.source_files = "IHakulaShare/*.{h,m}"
+s.source_files = "IHakulaShare/IHakulaShare/Classes/*"
 s.resources = "IHakulaShare/**/*.{xib,bundle}"
 
 end
