@@ -30,7 +30,7 @@ s.vendored_frameworks = "IHakulaShare/**/*.framework"
 s.vendored_libraries = "IHakulaShare/**/*.a"
 
 # 8
-s.source_files = "IHakulaShare/*.{h,m,xib}"
-s.resources = "IHakulaShare/**/*.{xib, bundle}"
+s.source_files = "IHakulaShare/*.{h,m}"
+s.resources = "IHakulaShare/**/*.{xib,bundle}"
 
 end
